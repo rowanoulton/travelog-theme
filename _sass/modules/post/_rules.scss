@@ -1,0 +1,115 @@
+@import "modules/post/variables";
+@mixin travelog-post {
+    .post {
+        margin-bottom: 40px;
+    }
+
+    .post-header {
+        padding-left: 35px;
+        min-height: $post-header-height;
+        background-repeat: no-repeat;
+        background-position: left center;
+        background-color: transparent;
+        margin-bottom: 15px;
+    }
+
+    .post-header--dw {
+        background-image: url(/assets/img/watch-1.png);
+    }
+
+    .post-header--ar {
+        background-image: url(/assets/img/watch-2.png);
+    }
+
+    .post-header-title {
+        margin-bottom: 5px;
+        font-family: $title-font;
+        font-size: 18px;
+        font-weight: 500;
+        text-transform: uppercase;
+        letter-spacing: 1px;
+    }
+
+    .post-header-date {
+        font-family: $caption-font;
+        font-style: italic;
+        font-weight: normal;
+        color: #444;
+        letter-spacing: 1px;
+    }
+
+    .post-image {
+        margin-bottom: 20px;
+
+        img { max-width: 100%; }
+
+        // A caption following an image
+        img + .post-image-caption { margin-top: 5px; }
+    }
+
+    .post-image-caption {
+        vertical-align: middle;
+        font-family: $caption-font;
+        font-style: italic;
+        color: $caption-colour;
+        background: #f6f6f6;
+        padding: 15px 20px 13px;
+        text-align: center;
+
+        // Paragraphs within the caption should have no margin
+        p { margin: 0; }
+
+        // Paragraphs following other paragraphs in the caption should have a top margin
+        p + p { margin-top: 15px; }
+    }
+
+    .post-footer {
+        margin-top: 35px;
+        padding-bottom: 15px;
+        border-bottom: 1px solid #e5e5e5;
+
+        // Both children are floated, so use a clearfix on the parent
+        &:after {
+          content: "";
+          display: table;
+          clear: both;
+        }
+    }
+
+    .post-footer-tags,
+    .post-footer-location {
+        max-width: 50%;
+    }
+
+    .post-footer-tags {
+        // In order to play nicely with the location element floated to the right of the footer
+        float: left;
+    }
+
+    .post-footer-tag {
+        font-family: $title-font;
+        font-weight: bold;
+        display: inline;
+        text-transform: uppercase;
+        font-size: $caption-text-size;
+        margin-right: 5px;
+        letter-spacing: 1px;
+    }
+
+    .post-footer-location {
+        font-family: $title-font;
+        font-weight: bold;
+        font-size: $caption-text-size;
+        color: $caption-colour;
+        float: right;
+        min-height: $post-footer-location-height;
+        line-height: $post-footer-location-line-height;
+        padding-right: 51px;
+        letter-spacing: 1px;
+        background: url(/assets/img/icon-location.png) no-repeat right center transparent;
+
+        &:hover {
+            color: $link-colour;
+        }
+    }
+}

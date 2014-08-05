@@ -1,0 +1,25 @@
+// Typography
+
+    // Fonts
+    $regular-font: 'Proxima Nova', 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+    $title-font: 'Helvetica Neue', Helvetica, Arial, sans-serif !default;
+    $subtitle-font: 'American Typewriter', Courier, serif !default;
+    $caption-font: 'Chaparral Pro', 'American Typewriter', Courier, serif !default;
+
+    // Colours
+    $link-colour: #598c7d !default;
+    $text-colour: #222 !default;
+    $inverse-text-colour: #eee !default; // For use on dark backgrounds
+    $subtitle-colour: #aaaaaa !default;
+    $caption-colour: #777 !default;
+
+
+    // Sizes
+    $regular-text-size: 14px !default;
+    $title-text-size: 18px !default;
+    $caption-text-size: 12px !default;
+
+// Layout
+
+    // Footer
+    $footer-height: 262px !default;

@@ -1,0 +1,4 @@
+@import "modules/post/rules";
+@import "modules/about/rules";
+@include travelog-post;
+@include travelog-about;

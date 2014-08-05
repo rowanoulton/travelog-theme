@@ -1,0 +1,82 @@
+@import "modules/about/variables";
+@mixin travelog-about {
+    .about {
+        width: $about-width;
+        margin: 0 auto;
+    }
+
+    .about-wrap {
+        display: table-cell;
+        vertical-align: middle;
+    }
+
+    .about-avatar {
+        border-radius: 100%;
+        overflow: hidden;
+        float: left;
+        border: 3px solid #fff;
+    }
+
+    .about-body {
+        font-family: $title-font;
+        float: right;
+        width: $about-body-width;
+        color: $inverse-text-colour;
+    }
+
+    .about-body-title {
+        font-weight: bold;
+        text-transform: uppercase;
+        padding-bottom: 5px;
+        border-bottom: 1px solid rgba(229, 229, 229, 0.5);
+        margin: 0 0 10px;
+        letter-spacing: 1px;
+    }
+
+    .about-body-description {
+        font-size: $caption-text-size;
+        letter-spacing: 1px;
+    }
+
+    .about-body-link {
+        color: $inverse-text-colour;
+        font-size: $caption-text-size;
+        font-weight: bold;
+        margin-bottom: 7px;
+        display: inline-block;
+
+        &:hover {
+            color: darken($link-colour, 10%);
+        }
+
+        img { 
+            margin-right: 5px; 
+            display: inline-block;
+            vertical-align: middle;
+        }
+    }
+
+    @media only screen and (max-width : $about-width) {
+        .about-avatar,
+        .about-body {
+            float: none;
+            text-align: center;
+        }
+
+        .about-avatar {
+            width: $about-avatar-shrunk-width;
+            height: $about-avatar-shrunk-height;
+        }
+
+        .about-body {
+            width: 80%;
+            margin: 10px auto 0;
+        }
+
+        .about {
+            margin: 0;
+            text-align: center;
+            width: 100%;
+        }
+    }
+}
