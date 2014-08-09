@@ -14,11 +14,11 @@
     }
 
     .post-header--dw {
-        background-image: url(/assets/img/watch-1.png);
+        background-image: url(/img/watch-1.png);
     }
 
     .post-header--ar {
-        background-image: url(/assets/img/watch-2.png);
+        background-image: url(/img/watch-2.png);
     }
 
     .post-header-title {
@@ -106,7 +106,7 @@
         line-height: $post-footer-location-line-height;
         padding-right: 51px;
         letter-spacing: 1px;
-        background: url(/assets/img/icon-location.png) no-repeat right center transparent;
+        background: url(/img/icon-location.png) no-repeat right center transparent;
 
         &:hover {
             color: $link-colour;
