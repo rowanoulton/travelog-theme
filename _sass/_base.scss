@@ -18,9 +18,10 @@ body {
 }
 
 a {
+    color: $link-colour;
     text-decoration: none;
 
     &:hover {
-        color: $link-colour;
+        color: darken($link-colour, 15%);
     }
 }
