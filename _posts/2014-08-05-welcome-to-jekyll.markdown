@@ -3,6 +3,8 @@ layout: post
 title:  "Welcome to Jekyll!"
 date:   2014-08-05 17:39:55
 categories: jekyll update
+location: City, Country
+tags: city country
 ---
 
 You'll find this post in your `_posts` directory - edit this post and re-build (or run with the `-w` switch) to see your changes!
