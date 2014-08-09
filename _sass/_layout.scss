@@ -31,6 +31,14 @@ header {
     margin: 40px 0;
     padding-bottom: 10px;
     border-bottom: 1px solid #e5e5e5;
+
+    a {
+        color: #222;
+
+        &:hover { 
+            color: #222; 
+        }
+    }
 }
 
 @media only screen and (max-width : 480px) {
