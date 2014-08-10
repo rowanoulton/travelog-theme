@@ -46,7 +46,7 @@
         display: inline-block;
 
         &:hover {
-            color: darken($link-colour, 10%);
+            color: $link-colour-over;
         }
 
         img { 

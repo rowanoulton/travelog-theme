@@ -22,6 +22,6 @@ a {
     text-decoration: none;
 
     &:hover {
-        color: darken($link-colour, 15%);
+        color: $link-colour-over;
     }
 }

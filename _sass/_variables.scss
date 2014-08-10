@@ -8,6 +8,7 @@
 
     // Colours
     $link-colour: #598c7d !default;
+    $link-colour-over: darken($link-colour, 15%) !default;
     $text-colour: #222 !default;
     $inverse-text-colour: #eee !default; // For use on dark backgrounds
     $subtitle-colour: #aaaaaa !default;
