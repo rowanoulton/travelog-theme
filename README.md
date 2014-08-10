@@ -1,5 +1,5 @@
 Travelog Theme
-==============
+---
 
 Travelog is a clean, elegant layout for [Jekyll](http://jekyllrb.com/).
 
