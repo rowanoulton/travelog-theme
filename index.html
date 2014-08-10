@@ -4,7 +4,7 @@ layout: default
 
 <!-- This loops through the paginated posts -->
 {% for post in paginator.posts %}
-  {% include post.html post=post %}
+  {% include post.html post=post content=post.content %}
 {% endfor %}
 
 </div>
