@@ -1,6 +1,9 @@
 @import "modules/pagination/variables";
 @mixin travelog-pagination {
     .pagination {
+        transition-property: margin;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
         text-align: center;
         margin: 80px auto;
         display: flex;
@@ -48,6 +51,7 @@
 
     @media only screen and (max-width : 495px) {
         .pagination {
+            margin: 40px auto;
             display: block;
             @include clearfix;
             border-bottom: 1px solid $border-colour;
