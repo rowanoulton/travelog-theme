@@ -12,3 +12,6 @@ instagram_username: "[name]"
 # Build settings
 markdown: kramdown
 permalink: pretty
+
+# Pagination
+paginate: 5
