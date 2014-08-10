@@ -72,7 +72,7 @@
     .post-footer {
         margin-top: 35px;
         padding-bottom: 15px;
-        border-bottom: 1px solid #e5e5e5;
+        border-bottom: 1px solid $border-colour;
 
         // Both children are floated, so use a clearfix on the parent
         @include clearfix;
