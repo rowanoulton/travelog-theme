@@ -27,6 +27,11 @@
             border-color: $link-colour-over;
             color: $link-colour-over; 
         }
+
+        &[disabled] {
+            pointer-events: none;
+            color: #eee;
+        }
     }
 
     .pagination-link--selected {
