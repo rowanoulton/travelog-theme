@@ -1,0 +1,34 @@
+@import "modules/pagination/variables";
+@mixin travelog-pagination {
+    .pagination {
+        text-align: center;
+        margin: 40px auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+
+    .pagination-item {
+        // To ensure the top margin begins from the outer bounds of the contained pagination link
+        line-height: 38px;
+    }
+
+    .pagination-link {
+        padding: 15px;
+        min-width: 35px;
+        border-top: 1px solid $border-colour;
+        text-transform: uppercase;
+        color: rgba(0, 0, 0, 0.35);
+
+        &:hover { 
+            border-color: $link-colour-over;
+            color: $link-colour-over; 
+        }
+    }
+
+    .pagination-link--selected {
+        font-weight: bold;
+        border-color: $link-colour-over;
+        color: $link-colour-over;
+    }
+}
