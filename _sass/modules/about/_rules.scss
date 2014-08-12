@@ -3,6 +3,9 @@
     .about {
         width: $about-width;
         margin: 0 auto;
+        display: flex;
+        align-items: center;
+        justify-content: center;
     }
 
     .about-wrap {
@@ -11,15 +14,17 @@
     }
 
     .about-avatar {
+        transition-property: margin;
+        transition-duration: 0.3s;
+        transition-timing-function: ease-in-out;
         border-radius: 100%;
         overflow: hidden;
-        float: left;
+        margin-right: 30px;
         border: 3px solid #fff;
     }
 
     .about-body {
         font-family: $title-font;
-        float: right;
         width: $about-body-width;
         color: $inverse-text-colour;
     }
@@ -36,6 +41,7 @@
     .about-body-description {
         font-size: $caption-text-size;
         letter-spacing: 1px;
+        line-height: $about-body-description-line-height;
     }
 
     .about-body-link {
@@ -56,7 +62,11 @@
         }
     }
 
-    @media only screen and (max-width : $about-width) {
+    @media only screen and (max-width : 500px) {
+        .about-avatar { margin-right: 20px; }
+    }
+
+    @media only screen and (max-width : ($about-width + 10px)) {
         .about-avatar,
         .about-body {
             float: none;
@@ -64,6 +74,7 @@
         }
 
         .about-avatar {
+            margin: 0;
             width: $about-avatar-shrunk-width;
             height: $about-avatar-shrunk-height;
         }
@@ -74,6 +85,7 @@
         }
 
         .about {
+            display: block;
             margin: 0;
             text-align: center;
             width: 100%;
