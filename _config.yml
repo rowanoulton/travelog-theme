@@ -2,12 +2,12 @@
 title: Travelog
 subtitle: "Journal of [name]"
 email: your-email@domain.com
-description: "Sed luctus vitae augue vitae dignissim. Aenean in iaculis orci. Praesent sagittis nulla sit amet nibh feugiat iaculis."
+description: "Go on, make the footer happy and enter a short description about your awesome self here"
 baseurl: ""
 url: "http://yourdomain.com"
-twitter_username: "[name]"
-github_username:  "[name]"
-instagram_username: "[name]"
+twitter_username: "rowanoulton"
+github_username:  "rowanoulton"
+instagram_username: "rowanoulton"
 
 # Build settings
 markdown: kramdown
