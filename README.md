@@ -1,6 +1,35 @@
 Travelog Theme
 ---
 
-Travelog is a clean, elegant layout for [Jekyll](http://jekyllrb.com/).
+Travelog is a totally rad theme for [Jekyll](http://jekyllrb.com/) that is both elegant and downright simple.
 
-Integration of the theme into Jekyll is still in progress. You can see what the finished product will look like by checking out the static build [here](https://github.com/rowanoulton/travelog-theme-build).
+![](http://i.imgur.com/93l6Ve6.png)
+
+In addition to being devishly hansom, it is responsive down to mobile and has a very light footprint.
+
+It has been designed to be an easy layout to modify for your own blog. See the installation instructions below to get started.
+
+### Installation
+
+- Install Jekyll: `gem install jekyll`
+- [Fork this repository](https://github.com/rowanoulton/travelog-theme/fork)
+- Clone it: `git clone https://github.com/YOUR-USER/travelog-theme`
+- Run the jekyll server: `jekyll serve -w`
+
+You should have a server up and running locally at <http://localhost:4000>.
+
+### Customization 
+
+To customize the theme to your hearts content, check out what's in `_config.yml` as that's where you'll pull your name, Twitter username, things like that.
+
+
+### Deployment
+
+Travelog is designed to be deployed to GitHub Pages. 
+
+
+### License
+
+[MIT](https://github.com/rowanoulton/travelog-theme/blob/master/LICENSE)
+
+Attribution is totally not necessary, use it as you please. If you'd like to throw me a shoutout or say thanks, I'm on [@rowanoulton](https://twitter.com/rowanoulton/).
