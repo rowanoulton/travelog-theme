@@ -5,7 +5,7 @@ Travelog is a totally rad theme for [Jekyll](http://jekyllrb.com/) that is both 
 
 ![](http://i.imgur.com/93l6Ve6.png)
 
-In addition to being devishly hansom, it is responsive down to mobile and has a very light footprint.
+In addition to being devilishly hansom, it is responsive down to mobile and has a very light footprint.
 
 It has been designed to be an easy layout to modify for your own blog. See the installation instructions below to get started.
 
