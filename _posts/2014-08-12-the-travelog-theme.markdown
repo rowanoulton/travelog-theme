@@ -16,6 +16,6 @@ Like a backpack with too many straps, I get frustrated when a blog has too many 
     <p class="post-image-caption">Using a little bit of markup, you can add beautiful captions to your totally beautiful pictures. Amazing.</p>
 </div>
 
-If you'd like to see it in action, you can do so [here](https://travelog-theme.github.io/). The code can be found on Github [here](https://github.com/rowanoulton/travelog-theme).
+The code can be found on Github [here](https://github.com/rowanoulton/travelog-theme).
 
 Any questions, get at me on Twitter: [@rowanoulton](https://twitter.com/rowanoulton/)
