@@ -15,3 +15,7 @@ permalink: pretty
 
 # Pagination
 paginate: 5
+
+# Sass
+sass:
+    style: :compressed
