@@ -3,7 +3,7 @@ Travelog Theme
 
 Travelog is a totally rad theme for [Jekyll](http://jekyllrb.com/) that is both elegant and downright simple.
 
-![](http://i.imgur.com/93l6Ve6.png)
+![](http://i.imgur.com/FGZafhB.png)
 
 In addition to being devilishly handsome, it is responsive down to mobile and has a very light footprint. Travelog lends itself well to photography and travel journaling.
 

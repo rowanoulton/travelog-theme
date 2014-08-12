@@ -7,9 +7,11 @@ location: Auckland, New Zealand
 tags: auckland new-zealand
 ---
 
-Travelog is a totally rad theme for Jekyll that is both elegant and downright simple. 
+Travelog is a theme for Jekyll that is both elegant and downright simple.
 
-Like a backpack with too many straps, I get frustrated when a blog has too many bells and whistles. It is with that philosophy that I have put together this theme so that you might drown in its whitespace.
+In addition to being devilishly handsome, it is responsive down to mobile and has a very light footprint. Travelog lends itself well to photography and travel journaling.
+
+Like a backpack with too many straps, a blog can sometimes be frustrating when it has too many bells and whistles. It is with that philosophy that I have put together this theme so that you might drown in its whitespace.
 
 <div class="post-image">
     <img src="http://placehold.it/885x500" />
