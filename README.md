@@ -1,7 +1,7 @@
 Travelog Theme
 ---
 
-Travelog is a totally rad theme for [Jekyll](http://jekyllrb.com/) that is both elegant and downright simple.
+Travelog is a theme for [Jekyll](http://jekyllrb.com/) that is both elegant and downright simple.
 
 ![](http://i.imgur.com/FGZafhB.png)
 
