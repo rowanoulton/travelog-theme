@@ -3,6 +3,10 @@
     background-size: cover;
     width: 100%;
     height: 10px;
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
 }
 
 #wrap {
@@ -28,7 +32,8 @@ header {
     transition-property: margin;
     transition-duration: 0.3s;
     transition-timing-function: ease-in-out;
-    margin: 40px 0;
+    margin: 0 0 40px;
+    padding-top: 50px; // 40px margin [has to be padding for sticky footer] + 10px for ribbon [positioned absolutely]
     padding-bottom: 10px;
     border-bottom: 1px solid $border-colour;
 
