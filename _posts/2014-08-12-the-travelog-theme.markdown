@@ -2,9 +2,9 @@
 layout: post
 title:  "The Travelog Theme"
 date:   2014-08-12 17:39:55
-categories: city country
-location: City, Country
-tags: city country
+categories: auckland, new-zealand
+location: Auckland, New Zealand
+tags: auckland new-zealand
 ---
 
 Travelog is a totally rad theme for Jekyll that is both elegant and downright simple. 
