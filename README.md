@@ -25,7 +25,7 @@ To customize the theme to your hearts content, check out what's in `_config.yml`
 
 ### Deployment
 
-Travelog is designed to be deployed to GitHub Pages. 
+Travelog is designed to be deployed to [GitHub Pages](https://pages.github.com/). 
 
 
 ### License
