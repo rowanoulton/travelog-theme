@@ -48,6 +48,11 @@
         letter-spacing: 1px;
     }
 
+    p + .post-image {
+        // When an image sits beneath a paragraph of text, provide a little more margin between them
+        margin-top: 20px;
+    }
+
     .post-image {
         margin-bottom: 20px;
 
