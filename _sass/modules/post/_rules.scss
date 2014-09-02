@@ -57,7 +57,10 @@
         margin-bottom: 20px;
         text-align: center;
 
-        img { max-width: 100%; }
+        img {
+            width: 100%;
+            max-width: 100%;
+        }
 
         // A caption following an image
         img + .post-image-caption { margin-top: 5px; }
