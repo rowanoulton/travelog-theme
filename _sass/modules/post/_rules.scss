@@ -49,6 +49,7 @@
     }
 
     .post-image {
+        font-size: 0;
         margin-bottom: 20px;
 
         img {
@@ -60,7 +61,19 @@
         img + .post-image-caption { margin-top: 5px; }
     }
 
+    .post-image--split {
+        img {
+            width: 435px;
+            max-width: 435px;
+
+            &:first-of-type {
+                margin-right: 15px;
+            }
+        }
+    }
+
     .post-image-caption {
+        font-size: 14px;
         vertical-align: middle;
         font-family: $caption-font;
         font-style: italic;
@@ -74,6 +87,22 @@
 
         // Paragraphs following other paragraphs in the caption should have a top margin
         p + p { margin-top: 15px; }
+    }
+
+    .post-image-caption-left,
+    .post-image-caption-right {
+        display: inline-block;
+        width: 420px;
+    }
+
+    .post-image-caption-left {
+        text-align: left;
+        padding-right: 10px;
+    }
+
+    .post-image-caption-right {
+        text-align: right;
+        padding-left: 10px;
     }
 
     .post-footer {
