@@ -3,6 +3,8 @@
     .about {
         width: $about-width;
         margin: 0 auto;
+        // For iOS Safari support
+        display: -webkit-flex;
         display: flex;
         align-items: center;
         justify-content: center;
