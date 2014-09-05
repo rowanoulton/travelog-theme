@@ -56,18 +56,45 @@
             width: 100%;
             max-width: 100%;
         }
-
-        // A caption following an image
-        img + .post-image-caption { margin-top: 5px; }
     }
 
     .post-image--split {
         margin-right: -15px;
 
         img {
-            width: 435px;
+            width: calc(50% - 7.5px);
             max-width: 435px;
             margin-right: 15px;
+        }
+
+        .post-image-caption {
+            margin-right: 15px;
+        }
+    }
+
+    @media only screen and (max-width : 900px) {
+        .post-image--split img {
+            width: calc(50% - 15px);
+            max-width: none;
+        }
+    }
+
+    @media only screen and (max-width : 500px) {
+        .post-image--split {
+            margin-right: 0;
+
+            img {
+                margin-right: 0;
+                width: 100%;
+                display: block;
+                margin-bottom: 15px;
+            }
+
+            .post-image-caption {
+                // Offset margin of full-width split images
+                margin-top: -10px;
+                margin-right: 0;
+            }
         }
     }
 
@@ -81,6 +108,7 @@
         background: #f6f6f6;
         padding: 15px 20px 13px;
         text-align: center;
+        margin-top: 5px;
 
         // Paragraphs within the caption should have no margin
         p { margin: 0; }
@@ -92,7 +120,7 @@
     .post-image-caption-left,
     .post-image-caption-right {
         display: inline-block;
-        width: 420px;
+        width: calc(50% - 1.5px);
     }
 
     .post-image-caption-left {
@@ -103,6 +131,36 @@
     .post-image-caption-right {
         text-align: right;
         padding-left: 10px;
+    }
+
+    @media only screen and (max-width : 500px) {
+        .post-image-caption-left,
+        .post-image-caption-right {
+            text-align: left;
+            display: block;
+            width: 100%;
+            padding: 0;
+        }
+
+        .post-image-caption-left {
+            margin-bottom: 15px;
+
+            &:before {
+                content: 'Left';
+                text-transform: uppercase;
+                font-weight: bold;
+                font-style: normal;
+                display: block;
+            }
+        }
+
+        .post-image-caption-right:before {
+            content: 'Right';
+            text-transform: uppercase;
+            font-weight: bold;
+            font-style: normal;
+            display: block;
+        }
     }
 
     .post-footer {
