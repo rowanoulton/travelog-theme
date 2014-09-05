@@ -19,8 +19,12 @@ Like a backpack with too many straps, a blog can sometimes be frustrating when i
 </div>
 
 <div class="post-image post-image--split">
-    <img src="http://placehold.it/435x500" />
-    <img src="http://placehold.it/435x500" />
+    <a href="#">
+        <img src="http://placehold.it/435x500" />
+    </a>
+    <a href="#">
+        <img src="http://placehold.it/435x500" />
+    </a>
     <p class="post-image-caption">
     	<span class="post-image-caption-left">
     		Expanding on this, you can show two images side-by-side
