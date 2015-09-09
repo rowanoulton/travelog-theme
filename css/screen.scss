@@ -13,6 +13,12 @@ $watch-2-3x: '{{ site.baseurl }}/img/watch-2@3x.png';
 $icon-location: '{{ site.baseurl }}/img/icon-location.png';
 $icon-location-2x: '{{ site.baseurl }}/img/icon-location@2x.png';
 $icon-location-3x: '{{ site.baseurl }}/img/icon-location@3x.png';
+$icon-twitter: '{{ site.baseurl }}/img/icon-twitter.png';
+$icon-twitter-2x: '{{ site.baseurl }}/img/icon-twitter@2x.png';
+$icon-twitter-3x: '{{ site.baseurl }}/img/icon-twitter@3x.png';
+$icon-instagram: '{{ site.baseurl }}/img/icon-instagram.png';
+$icon-instagram-2x: '{{ site.baseurl }}/img/icon-instagram@2x.png';
+$icon-instagram-3x: '{{ site.baseurl }}/img/icon-instagram@3x.png';
 
 @import "vendor/normalize";
 @import "utils";
