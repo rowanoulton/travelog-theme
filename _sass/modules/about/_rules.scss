@@ -52,6 +52,11 @@
         font-weight: bold;
         margin-bottom: 7px;
         display: inline-block;
+        background-repeat: no-repeat;
+        background-position: center left;
+        background-size: 15px;
+        background-color: transparent;
+        padding-left: 25px;
 
         &:hover {
             color: $link-colour-over;
@@ -61,6 +66,36 @@
             margin-right: 5px; 
             display: inline-block;
             vertical-align: middle;
+        }
+    }
+
+    .about-body-link--gram {
+        // Non-retina device
+        background-image: url($icon-instagram);
+
+        // Retina @2x device
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.2), only screen and (min--moz-device-pixel-ratio: 1.2), only screen and (-o-min-device-pixel-ratio: 5/4), only screen and (min-device-pixel-ratio: 1.2), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.2dppx) {
+            background-image: url($icon-instagram-2x);
+        }
+
+        // Retina @3x device
+        @media only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (min--moz-device-pixel-ratio: 3), only screen and (-o-min-device-pixel-ratio: 3/1), only screen and (min-device-pixel-ratio: 3), only screen and (min-resolution: 288dpi), only screen and (min-resolution: 3dppx) {
+            background-image: url($icon-instagram-3x);
+        }
+    }
+
+    .about-body-link--bird {
+        // Non-retina device
+        background-image: url($icon-twitter);
+
+        // Retina @2x device
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.2), only screen and (min--moz-device-pixel-ratio: 1.2), only screen and (-o-min-device-pixel-ratio: 5/4), only screen and (min-device-pixel-ratio: 1.2), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.2dppx) {
+            background-image: url($icon-twitter-2x);
+        }
+
+        // Retina @3x device
+        @media only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (min--moz-device-pixel-ratio: 3), only screen and (-o-min-device-pixel-ratio: 3/1), only screen and (min-device-pixel-ratio: 3), only screen and (min-resolution: 288dpi), only screen and (min-resolution: 3dppx) {
+            background-image: url($icon-twitter-3x);
         }
     }
 

@@ -17,12 +17,41 @@
         margin-bottom: 15px;
     }
 
+    .post-header--dw,
+    .post-header--ar {
+        background-size: 24px;
+    }
+
     .post-header--dw {
+        // Non-retina device
         background-image: url($watch-1);
+
+        // Retina @2x device
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.2), only screen and (min--moz-device-pixel-ratio: 1.2), only screen and (-o-min-device-pixel-ratio: 5/4), only screen and (min-device-pixel-ratio: 1.2), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.2dppx) {
+            background-image: url($watch-1-2x);
+            background-size: 25px;
+        }
+
+        // Retina @3x device
+        @media only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (min--moz-device-pixel-ratio: 3), only screen and (-o-min-device-pixel-ratio: 3/1), only screen and (min-device-pixel-ratio: 3), only screen and (min-resolution: 288dpi), only screen and (min-resolution: 3dppx) {
+            background-image: url($watch-1-3x);
+            background-size: 25px;
+        }
     }
 
     .post-header--ar {
+         // Non-retina device
         background-image: url($watch-2);
+
+        // Retina @2x device
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.2), only screen and (min--moz-device-pixel-ratio: 1.2), only screen and (-o-min-device-pixel-ratio: 5/4), only screen and (min-device-pixel-ratio: 1.2), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.2dppx) {
+            background-image: url($watch-2-2x);
+        }
+
+        // Retina @3x device
+        @media only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (min--moz-device-pixel-ratio: 3), only screen and (-o-min-device-pixel-ratio: 3/1), only screen and (min-device-pixel-ratio: 3), only screen and (min-resolution: 288dpi), only screen and (min-resolution: 3dppx) {
+            background-image: url($watch-2-3x);
+        }
     }
 
     .post-header-title {
@@ -203,7 +232,23 @@
         line-height: $post-footer-location-line-height;
         padding-right: 51px;
         letter-spacing: 1px;
-        background: url($icon-location) no-repeat right center transparent;
+        background-repeat: no-repeat;
+        background-position: right center;
+        background-color: transparent;
+        background-size: 44px;
+
+        // Non-retina devices
+        background-image: url($icon-location);
+
+        // Retina @2x device
+        @media only screen and (-webkit-min-device-pixel-ratio: 1.2), only screen and (min--moz-device-pixel-ratio: 1.2), only screen and (-o-min-device-pixel-ratio: 5/4), only screen and (min-device-pixel-ratio: 1.2), only screen and (min-resolution: 120dpi), only screen and (min-resolution: 1.2dppx) {
+            background-image: url($icon-location-2x);
+        }
+
+        // Retina @3x device
+        @media only screen and (-webkit-min-device-pixel-ratio: 3), only screen and (min--moz-device-pixel-ratio: 3), only screen and (-o-min-device-pixel-ratio: 3/1), only screen and (min-device-pixel-ratio: 3), only screen and (min-resolution: 288dpi), only screen and (min-resolution: 3dppx) {
+            background-image: url($icon-location-3x);
+        }
 
         &:hover {
             color: $link-colour;
