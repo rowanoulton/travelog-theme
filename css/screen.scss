@@ -5,8 +5,14 @@
 
 $banner: '{{ site.baseurl }}/img/banner.jpg';
 $watch-1: '{{ site.baseurl }}/img/watch-1.png';
+$watch-1-2x: '{{ site.baseurl }}/img/watch-1@2x.png';
+$watch-1-3x: '{{ site.baseurl }}/img/watch-1@3x.png';
 $watch-2: '{{ site.baseurl }}/img/watch-2.png';
+$watch-2-2x: '{{ site.baseurl }}/img/watch-2@2x.png';
+$watch-2-3x: '{{ site.baseurl }}/img/watch-2@3x.png';
 $icon-location: '{{ site.baseurl }}/img/icon-location.png';
+$icon-location-2x: '{{ site.baseurl }}/img/icon-location@2x.png';
+$icon-location-3x: '{{ site.baseurl }}/img/icon-location@3x.png';
 
 @import "vendor/normalize";
 @import "utils";
